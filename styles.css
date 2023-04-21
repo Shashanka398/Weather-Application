@@ -16,7 +16,7 @@
     width:100vw;
     height:120vh;
     color: var(--colorLight2);
-    background-image: linear-gradient(160deg, #112d4e 0%, #3f72af 100%);;
+    background-image: linear-gradient(160deg, #114e45 0%, #3f72af 100%);;
 }
 
 h1 {
@@ -100,7 +100,13 @@ h1 {
 .loading-container.active{
     display: flex;
 }
+.Not-found{
+    display: none;
+}
 
+.Not-found.active{
+    display: flex;
+}
 .loading-container p{
     text-transform: uppercase;
 }
